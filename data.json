@@ -1,0 +1,72 @@
+{
+    "meta": {
+        "app_id": "es.asturias.tineo.poi",
+        "app_title": "Points of Interest Tineo",
+        "version": 1,
+        "updated": "2023-10-04",
+        "source_url": "https://ow2-quick-app-initiative.github.io/poi-quick-app/sample/data.json",
+        "matomo_base_url": "https://matomo.pbest.me/matomo.php?idsite=1&rec=1",        
+        "marketplace_url": ""
+    },
+    "content": {
+        "en": {
+            "app": {
+                "theme": {
+                    "brand": "#B11623",
+                    "complementary": "#FAFAFA"
+                },
+                "repository_url": "https://github.com/ow2-quick-app-initiative/poi-quick-app/tree/main/docs/country/city",
+                "text_info": "This app is created by locals and experts. As you can see, it's also free of charge. Please let us know if you want to contribute with your experience, enrich the content, correct inaccuracies, or submit pictures.",
+                "text_acknowledge": "This quick app is an open-source project powered by open data and enriched by the community. Most of the information was extracted from Wikidata, OpenStreetMaps, and other public sources. You can find inaccuracies, so we apologize in advance.",
+                "text_feedback": "Please let us know if you want to contribute with your experience, enrich the content, correct inaccuracies, or submit pictures. This app is created by locals and experts.",
+                "feedback_url": "https://ow2-quick-app-initiative.github.io/poi-quick-app/sample/#get-involved",
+                "issue_url": "https://github.com/ow2-quick-app-initiative/poi-quick-app/issues/new?labels=country/city&template=update_request.md&title=Update+Request"
+            },
+            "pois": [{
+                    "id": "SGHQW23HAHJ",
+                    "lat": "43.33875552960023",
+                    "lon": "-6.40410769339459",
+                    "type": "sport",
+                    "name": "Bolera of San Roque",
+                    "images": [
+                        "https://res.cloudinary.com/dyoejqhka/image/upload/v1696438817/boleraSR_ugbnrj.jpg"
+                    ],
+                    "description": "Cradle of Asturian 'Bolo Celta'. During the bowling season numerous games are played at this location. During the holiday season, tournaments are held for all ages.",
+                    "more": "",
+                    "urls": []
+                },
+                {
+                    "id": "GDHJ2421NJ",
+                    "lat": "43.40406317404416",
+                    "lon": "-6.54363359365075",
+                    "type": "village",
+                    "name": "Navelgas, the asturian gold",
+                    "images": [
+                        "https://res.cloudinary.com/dyoejqhka/image/upload/v1696438937/buscando-oro-en-navelgas-29_zzort3.jpg"
+                    ],
+                    "description": "There is evidence of settlement prior to Roman times. After the Roman invasion of the northern peninsula in Navelgas, a Roman gold mine was created on an old indigenous exploitation. The technique used was the so-called ruina montium, which consisted of accumulating large quantities of water in high places to transport it through artificial channels to the areas where the mineral was found, dissolved in the earth. The water mixed with the earth traveled great distances through these channels, leaving the gold deposited by decantation in the bends of the channel. This same system was used in many other gold mining operations in northern Hispania, such as Las Médulas (León).",
+                    "more": "https://es.wikipedia.org/wiki/Navelgas",
+                    "urls": [
+                        
+                    ]
+                }
+                ,
+                {
+                    "id": "SJJKOAHW341N",
+                    "lat": "43.33561246207091",
+                    "lon": "-6.412800356015902",
+                    "type": "statue",
+                    "name": "Count of Campomanes",
+                    "images": [
+                        "https://res.cloudinary.com/dyoejqhka/image/upload/v1696438997/campomanes_dfjziz.jpg"
+                    ],
+                    "description": "This lawyer of 'obscure origin' was to the attention of the crown with his 1747 publication on the history of the Knights Templar, which gained recognition by the Royal Academy of History and influenced the expulsion of the Jesuits in 1767. In 1750, he wrote under the pseudonym Rodrigo Perianes Campo an important text on the political economy of Spain.",
+                    "more": "https://es.wikipedia.org/wiki/Pedro_Rodr%C3%ADguez_de_Campomanes",
+                    "urls": [
+                        
+                    ]
+                }
+            ]
+        }
+    }
+}
